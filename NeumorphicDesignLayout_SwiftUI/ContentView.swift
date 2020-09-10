@@ -22,13 +22,7 @@ struct ContentView_Previews: PreviewProvider {
 
 struct Home : View {
     
-    // slider ...
-    // sample slider value...
-    @State var value : CGFloat = 50
-    
-    var body: some View{
-//
-        
+    var body: some View{        
 VStack {
     ZStack {
         HStack{
